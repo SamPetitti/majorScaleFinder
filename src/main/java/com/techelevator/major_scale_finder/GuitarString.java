@@ -56,10 +56,10 @@ public abstract class GuitarString {
 		switch(stringEntered) {
 		  case "e" :
 		        eString.findMajorScale(fret);
-		  break;
+		        break;
 		  case "b" :
 		       bString.findMajorScale(fret);
-		  break;
+		       break;
 		  case "g" :
 			  gString.findMajorScale(fret);
 			  break;
@@ -71,10 +71,10 @@ public abstract class GuitarString {
 			  break;
 		  case "1" :
 		        eString.findMajorScale(fret);
-		  break;
+		        break;
 		  case "2" :
 		       bString.findMajorScale(fret);
-		  break;
+		       break;
 		  case "3" :
 			  gString.findMajorScale(fret);
 			  break;
@@ -88,7 +88,7 @@ public abstract class GuitarString {
 		        eString.findMajorScale(fret);
 		        break;
 		  case "y" :
-			  break;
+			   break;
 			  
 		}
 	  }
